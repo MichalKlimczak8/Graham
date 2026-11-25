@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graham's Electrical Services | NICEIC Approved Electrician in London &amp; Essex</title>
+  <meta name="description" content="Graham's Electrical Services provides NICEIC approved domestic and commercial electrical installations, EV chargers, fuse box upgrades, EICRs, and 24/7 emergency repairs across London &amp; Essex." />
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            navy: {
+              950: '#090e1a',
+              900: '#0f172a',
+              800: '#1e293b',
+              700: '#334155',
+            },
+            volt: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-amber-400 selection:text-slate-950 overflow-x-hidden">
+
+  <!-- Top Emergency & Trust Bar -->
+  <div class="bg-navy-950 text-slate-300 text-xs sm:text-sm py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-4 flex-wrap justify-center">
+        <span class="inline-flex items-center gap-1.5 font-medium text-amber-400">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+          24/7 Emergency Callouts Available
+        </span>
+        <span class="hidden md:inline text-slate-600">|</span>
+        <span class="hidden md:inline">Serving East London, Barking, Ilford, Romford &amp; Essex</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <span class="text-slate-400 hidden sm:inline">NICEIC Approved &amp; Part P Registered</span>
+        <a href="tel:02085550194" class="font-semibold text-white hover:text-amber-400 transition inline-flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 text-amber-400" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          020 8555 0194
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="sticky top-0 z-40 bg-navy-900/95 backdrop-blur-md border-b border-slate-800 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-3 group focus:outline-none">
+          <div class="w-11 h-11 rounded-xl bg-amber-500 flex items-center justify-center text-navy-950 shadow-md shadow-amber-500/20 group-hover:bg-amber-400 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+            </svg>
+          </div>
+          <div>
+            <span class="block text-white font-extrabold text-lg sm:text-xl tracking-tight leading-none">GRAHAM'S</span>
+            <span class="block text-amber-400 text-xs font-semibold tracking-widest uppercase mt-0.5">Electrical Services</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-300">
+          <a href="#services" class="hover:text-amber-400 transition py-2">Services</a>
+          <a href="#about" class="hover:text-amber-400 transition py-2">Why Graham</a>
+          <a href="#gallery" class="hover:text-amber-400 transition py-2">Recent Work</a>
+          <a href="#reviews" class="hover:text-amber-400 transition py-2">Reviews</a>
+          <a href="#quote" class="hover:text-amber-400 transition py-2">Enquire</a>
+        </nav>
+
+        <!-- Desktop CTAs -->
+        <div class="hidden sm:flex items-center gap-3">
+          <a href="tel:07700900482" class="px-4 py-2.5 rounded-xl border border-slate-700 text-slate-200 hover:border-amber-400 hover:text-amber-400 text-sm font-semibold transition inline-flex items-center gap-2">
+            <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/></svg>
+            07700 900 482
+          </a>
+          <a href="#quote" class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-navy-950 font-bold text-sm shadow-lg shadow-amber-500/20 transition">
+            Get a Free Quote
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" type="button" aria-label="Toggle Menu" class="lg:hidden p-2.5 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition">
+          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-t border-slate-800 px-4 pt-3 pb-6 space-y-2">
+      <a href="#services" class="mobile-nav-link block px-4 py-3 rounded-xl text-slate-200 hover:bg-slate-800 hover:text-amber-400 font-medium">Services</a>
+      <a href="#about" class="mobile-nav-link block px-4 py-3 rounded-xl text-slate-200 hover:bg-slate-800 hover:text-amber-400 font-medium">Why Choose Graham</a>
+      <a href="#gallery" class="mobile-nav-link block px-4 py-3 rounded-xl text-slate-200 hover:bg-slate-800 hover:text-amber-400 font-medium">Recent Projects</a>
+      <a href="#reviews" class="mobile-nav-link block px-4 py-3 rounded-xl text-slate-200 hover:bg-slate-800 hover:text-amber-400 font-medium">Customer Reviews</a>
+      <div class="pt-3 grid grid-cols-1 gap-3">
+        <a href="tel:07700900482" class="w-full py-3 rounded-xl border border-slate-700 text-center text-white font-semibold">Call Graham: 07700 900 482</a>
+        <a href="#quote" class="mobile-nav-link w-full py-3 rounded-xl bg-amber-500 text-center text-navy-950 font-bold">Request Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-navy-900 text-white overflow-hidden">
+    <!-- Subtle Geometric Grid Background -->
+    <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#fbbf24 1px, transparent 1px); background-size: 28px 28px;"></div>
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-24 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Left Content -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/90 border border-slate-700 text-amber-400 text-xs sm:text-sm font-semibold">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>
+            NICEIC Approved &amp; Part P Certified Master Electrician
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12]">
+            Safe, Reliable &amp; Certified <span class="text-amber-400">Electrical Solutions</span> for Your Home &amp; Business.
+          </h1>
+
+          <p class="text-slate-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+            Hi, I’m Graham. With over 15 years of hands-on experience across London and Essex, I deliver neat, regulation-compliant electrical work—from full rewires and EV chargers to fuse box upgrades and 24/7 fault finding—with upfront fixed quotes and zero mess left behind.
+          </p>
+
+          <!-- Hero CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 pt-2">
+            <a href="#quote" class="px-7 py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-navy-950 font-bold text-base shadow-xl shadow-amber-500/20 transition inline-flex items-center justify-center gap-2">
+              Get a Free, No-Obligation Quote
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+            </a>
+            <a href="tel:02085550194" class="px-7 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold text-base transition inline-flex items-center justify-center gap-2.5">
+              <svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+              Call 020 8555 0194
+            </a>
+          </div>
+
+          <!-- Quick Guarantees -->
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-800/90 max-w-xl">
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-white">15+ Yrs</p>
+              <p class="text-xs sm:text-sm text-slate-400">Trade Experience</p>
+            </div>
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-amber-400">5.0 ★</p>
+              <p class="text-xs sm:text-sm text-slate-400">180+ Verified Reviews</p>
+            </div>
+            <div>
+              <p class="text-2xl sm:text-3xl font-extrabold text-white">£5M</p>
+              <p class="text-xs sm:text-sm text-slate-400">Public Liability Cover</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Visual Showcase -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative rounded-2xl overflow-hidden border-2 border-slate-700/80 shadow-2xl bg-slate-800">
+            <img 
+              src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80" 
+              alt="Professional electrician inspecting a modern electrical distribution board" 
+              class="w-full h-[380px] sm:h-[460px] object-cover"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x900/1e293b/fbbf24?text=Graham%27s+Electrical+Services';"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent"></div>
+            
+            <!-- Floating Certification Card -->
+            <div class="absolute bottom-4 left-4 right-4 bg-navy-900/95 backdrop-blur-md border border-slate-700 rounded-xl p-4 flex items-center justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-lg bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shrink-0">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+                </div>
+                <div>
+                  <p class="text-white font-bold text-sm">BS 7671 18th Edition Certified</p>
+                  <p class="text-slate-400 text-xs">6-Year Workmanship Guarantee Included</p>
+                </div>
+              </div>
+              <span class="px-2.5 py-1 rounded-md bg-emerald-500/20 text-emerald-300 text-xs font-semibold shrink-0">Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust & Accreditation Strip -->
+  <section class="bg-white border-b border-slate-200 py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4 items-center text-center">
+        <div class="flex items-center justify-center gap-2.5 p-2 rounded-xl bg-slate-50 border border-slate-100">
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+          <span class="font-bold text-slate-800 text-xs sm:text-sm">NICEIC Approved</span>
+        </div>
+        <div class="flex items-center justify-center gap-2.5 p-2 rounded-xl bg-slate-50 border border-slate-100">
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+          <span class="font-bold text-slate-800 text-xs sm:text-sm">Part P Registered</span>
+        </div>
+        <div class="flex items-center justify-center gap-2.5 p-2 rounded-xl bg-slate-50 border border-slate-100">
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+          <span class="font-bold text-slate-800 text-xs sm:text-sm">OZEV EV Installer</span>
+        </div>
+        <div class="flex items-center justify-center gap-2.5 p-2 rounded-xl bg-slate-50 border border-slate-100">
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+          <span class="font-bold text-slate-800 text-xs sm:text-sm">£5M Insured</span>
+        </div>
+        <div class="col-span-2 md:col-span-1 flex items-center justify-center gap-2.5 p-2 rounded-xl bg-slate-50 border border-slate-100">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+          <span class="font-bold text-slate-800 text-xs sm:text-sm">No Callout Fee Quotes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Electrical Services Section -->
+  <section id="services" class="py-16 sm:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Section Heading -->
+      <div class="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
+        <span class="text-amber-600 font-bold text-xs sm:text-sm uppercase tracking-wider">What I Do</span>
+        <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight">
+          Comprehensive Domestic &amp; Commercial Electrical Services
+        </h2>
+        <p class="mt-4 text-slate-600 text-base sm:text-lg">
+          Every installation is tested, certified, and carried out to current UK Wiring Regulations (BS 7671). Select any service below to request an instant quote.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+        <!-- Service 1: Consumer Unit Upgrades -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
+          <div class="h-48 overflow-hidden relative bg-slate-800">
+            <img 
+              src="https://images.unsplash.com/photo-1558402529-d2638a7023e9?auto=format&fit=crop&w=800&q=80" 
+              alt="Modern consumer unit fuse box upgrade with RCBO protection" 
+              class="w-full h-full object-cover hover:scale-105 transition duration-500"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x500/0f172a/fbbf24?text=Consumer+Unit+Upgrades';"
+            />
+            <span class="absolute top-3 left-3 bg-navy-900/90 text-amber-400 text-xs font-bold px-3 py-1 rounded-lg backdrop-blur-sm">
+              18th Edition Compliant
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-navy-900">Consumer Unit (Fuse Box) Upgrades</h3>
+              <p class="mt-2.5 text-slate-600 text-sm leading-relaxed">
+                Replace outdated wooden or plastic fuse boxes with modern metal-clad RCBO consumer units featuring full surge protection (SPD) and full circuit testing.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">Part P Certified</span>
+              <button type="button" data-service="Consumer Unit (Fuse Box) Upgrade" class="quote-prefill-btn text-amber-600 hover:text-amber-700 font-bold text-sm inline-flex items-center gap-1 cursor-pointer">
+                Enquire Now
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 2: Full & Partial Rewires -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
+          <div class="h-48 overflow-hidden relative bg-slate-800">
+            <img 
+              src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" 
+              alt="Electrical wiring installation during home renovation" 
+              class="w-full h-full object-cover hover:scale-105 transition duration-500"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x500/0f172a/fbbf24?text=Full+%26+Partial+Rewires';"
+            />
+            <span class="absolute top-3 left-3 bg-navy-900/90 text-amber-400 text-xs font-bold px-3 py-1 rounded-lg backdrop-blur-sm">
+              Renovations &amp; Extensions
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-navy-900">Full &amp; Partial House Rewires</h3>
+              <p class="mt-2.5 text-slate-600 text-sm leading-relaxed">
+                Complete first and second fix electrical installations for home renovations, extensions, loft conversions, and older properties needing safe modern cabling.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">Clean Dust-Extracted Chasing</span>
+              <button type="button" data-service="Full or Partial Rewire" class="quote-prefill-btn text-amber-600 hover:text-amber-700 font-bold text-sm inline-flex items-center gap-1 cursor-pointer">
+                Enquire Now
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 3: EV Charger Installations -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
+          <div class="h-48 overflow-hidden relative bg-slate-800">
+            <img 
+              src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=800&q=80" 
+              alt="Electric vehicle home charging point mounted on driveway wall" 
+              class="w-full h-full object-cover hover:scale-105 transition duration-500"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x500/0f172a/fbbf24?text=EV+Charger+Installation';"
+            />
+            <span class="absolute top-3 left-3 bg-navy-900/90 text-amber-400 text-xs font-bold px-3 py-1 rounded-lg backdrop-blur-sm">
+              7kW &amp; 22kW Smart Chargers
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-navy-900">Home &amp; Workplace EV Chargers</h3>
+              <p class="mt-2.5 text-slate-600 text-sm leading-relaxed">
+                Supply and neat installation of Myenergi Zappi, Easee, Ohme, and Pod Point chargers with PEN fault protection, load balancing, and DNO notification handled.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">Solar-Compatible Options</span>
+              <button type="button" data-service="EV Charger Installation" class="quote-prefill-btn text-amber-600 hover:text-amber-700 font-bold text-sm inline-flex items-center gap-1 cursor-pointer">
+                Enquire Now
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 4: Lighting Design & LED Upgrades -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
+          <div class="h-48 overflow-hidden relative bg-slate-800">
+            <img 
+              src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" 
+              alt="Modern architectural LED downlights and pendant lighting in living room" 
+              class="w-full h-full object-cover hover:scale-105 transition duration-500"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x500/0f172a/fbbf24?text=Lighting+%26+LED+Design';"
+            />
+            <span class="absolute top-3 left-3 bg-navy-900/90 text-amber-400 text-xs font-bold px-3 py-1 rounded-lg backdrop-blur-sm">
+              Indoor &amp; Garden
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-navy-900">Lighting Design &amp; LED Upgrades</h3>
+              <p class="mt-2.5 text-slate-600 text-sm leading-relaxed">
+                Fire-rated LED downlights, kitchen under-cabinet strips, smart dimmer switches, feature pendants, and IP65 weatherproof garden &amp; security lighting.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">Cut Energy Bills up to 75%</span>
+              <button type="button" data-service="Lighting Design & LED Upgrades" class="quote-prefill-btn text-amber-600 hover:text-amber-700 font-bold text-sm inline-flex items-center gap-1 cursor-pointer">
+                Enquire Now
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 5: EICR Safety Certificates -->
+        <article class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
+          <div class="h-48 overflow-hidden relative bg-slate-800">
+            <img 
+              src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=800&q=80" 
+              alt="Electrician testing electrical circuits with calibrated multifunction tester" 
+              class="w-full h-full object-cover hover:scale-105 transition duration-500"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x500/0f172a/fbbf24?text=EICR+Safety+Certificates';"
+            />
+            <span class="absolute top-3 left-3 bg-navy-900/90 text-amber-400 text-xs font-bold px-3 py-1 rounded-lg backdrop-blur-sm">
+              Landlords &amp; Homebuyers
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-navy-900">EICR Certificates &amp; Safety Checks</h3>
+              <p class="mt-2.5 text-slate-600 text-sm leading-relaxed">
+                Thorough Electrical Installation Condition Reports for landlords (5-year legal compliance), homebuyers, and commercial premises with same-day digital PDF reports.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs font-semibold text-slate-500">Same-Day Digital Report</span>
+              <button type="button" data-service="EICR Safety Certificate / Inspection" class="quote-prefill-btn text-amber-600 hover:text-amber-700 font-bold text-sm inline-flex items-center gap-1 cursor-pointer">
+                Enquire Now
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 6: 24/7 Emergency Fault Finding -->
+        <article class="bg-navy-900 text-white rounded-2xl border border-slate-800 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
+          <div class="h-48 overflow-hidden relative bg-slate-800">
+            <img 
+              src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80" 
+              alt="Emergency electrician diagnosing tripping circuit breaker fault" 
+              class="w-full h-full object-cover hover:scale-105 transition duration-500"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x500/0f172a/fbbf24?text=24%2F7+Emergency+Repairs';"
+            />
+            <span class="absolute top-3 left-3 bg-amber-500 text-navy-950 text-xs font-extrabold px-3 py-1 rounded-lg">
+              Rapid Response 24/7
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-white">24/7 Emergency Fault Finding</h3>
+              <p class="mt-2.5 text-slate-300 text-sm leading-relaxed">
+                Tripping fuse box, sudden power loss, burning smell from sockets, or faulty immersion heater? I carry common parts in my van for first-visit fixes.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
+              <a href="tel:07700900482" class="text-xs font-bold text-amber-400 hover:underline">Call: 07700 900 482</a>
+              <button type="button" data-service="24/7 Emergency Fault Finding & Repair" class="quote-prefill-btn text-amber-400 hover:text-amber-300 font-bold text-sm inline-flex items-center gap-1 cursor-pointer">
+                Request Urgent Help
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Graham Section -->
+  <section id="about" class="py-16 sm:py-24 bg-white border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Left Image Composition -->
+        <div class="lg:col-span-5">
+          <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100">
+            <img 
+              src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=900&q=80" 
+              alt="Graham working neatly on a residential electrical panel" 
+              class="w-full h-[420px] object-cover"
+              onerror="this.onerror=null;this.src='https://placehold.co/800x800/1e293b/fbbf24?text=Meet+Graham';"
+            />
+            <div class="bg-navy-900 text-white p-5">
+              <p class="font-bold text-lg text-amber-400">“I treat every customer’s home with the exact same care and respect as my own.”</p>
+              <p class="text-slate-400 text-xs mt-1">— Graham Miller, Founder &amp; Lead Electrician</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Copy -->
+        <div class="lg:col-span-7 space-y-6">
+          <span class="text-amber-600 font-bold text-xs sm:text-sm uppercase tracking-wider">Why Choose Graham's Electrical</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight">
+            Honest Advice, Tidy Workmanship &amp; Transparent Fixed Pricing
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed">
+            When you book Graham’s Electrical Services, you deal directly with me from your initial phone call and site survey right through to final testing and certification—never a call centre or subcontracted stranger.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-2">
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex gap-3.5">
+              <div class="w-10 h-10 rounded-lg bg-amber-500/15 text-amber-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-navy-900 text-base">Punctual &amp; Reliable</h3>
+                <p class="text-slate-600 text-sm mt-1">Confirmed arrival slots with an SMS alert when I am 20 minutes away.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex gap-3.5">
+              <div class="w-10 h-10 rounded-lg bg-amber-500/15 text-amber-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-navy-900 text-base">Clear Itemised Quotes</h3>
+                <p class="text-slate-600 text-sm mt-1">No hidden extras or jargon. You approve the exact cost before any work starts.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex gap-3.5">
+              <div class="w-10 h-10 rounded-lg bg-amber-500/15 text-amber-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-navy-900 text-base">Dust Sheets &amp; Tidy Finish</h3>
+                <p class="text-slate-600 text-sm mt-1">Overshoes worn indoors, dust sheets laid down, and full vacuuming on completion.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex gap-3.5">
+              <div class="w-10 h-10 rounded-lg bg-amber-500/15 text-amber-600 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-navy-900 text-base">Full NICEIC Certification</h3>
+                <p class="text-slate-600 text-sm mt-1">All notifiable work registered with Building Control with official certificates issued.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Work Gallery Section -->
+  <section id="gallery" class="py-16 sm:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+        <div>
+          <span class="text-amber-600 font-bold text-xs sm:text-sm uppercase tracking-wider">Portfolio</span>
+          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight">Recent Electrical Installations</h2>
+        </div>
+        <p class="text-slate-600 text-sm sm:text-base max-w-md">
+          Click any project photo to inspect the installation details. All projects completed across London &amp; Essex.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Gallery Item 1 -->
+        <button type="button" class="gallery-item group relative rounded-2xl overflow-hidden bg-navy-900 shadow-md text-left cursor-pointer focus:outline-none focus:ring-4 focus:ring-amber-400"
+          data-img="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=85"
+          data-title="Open-Plan Kitchen LED Lighting &amp; Island Sockets"
+          data-location="Wanstead, East London"
+          data-desc="Installed 14 fire-rated warm-white LED downlights, warm LED plinth lighting, brushed steel pop-up island sockets, and a dedicated induction hob circuit.">
+          <img 
+            src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=700&q=80" 
+            alt="Modern kitchen with recessed LED lighting and island sockets" 
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            onerror="this.onerror=null;this.src='https://placehold.co/600x700/1e293b/fbbf24?text=Kitchen+LED+Lighting';"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-amber-400 text-xs font-bold uppercase">Wanstead, E11</span>
+            <h3 class="text-white font-bold text-base mt-0.5">Kitchen Lighting &amp; Island Power</h3>
+          </div>
+        </button>
+
+        <!-- Gallery Item 2 -->
+        <button type="button" class="gallery-item group relative rounded-2xl overflow-hidden bg-navy-900 shadow-md text-left cursor-pointer focus:outline-none focus:ring-4 focus:ring-amber-400"
+          data-img="https://images.unsplash.com/photo-1558402529-d2638a7023e9?auto=format&fit=crop&w=1200&q=85"
+          data-title="18th Edition 16-Way RCBO Consumer Unit Upgrade"
+          data-location="Romford, Essex"
+          data-desc="Replaced an ageing 1980s rewireable fuse board with a fully labelled Hager metal RCBO consumer unit with Type 2 surge protection and full EICR certification.">
+          <img 
+            src="https://images.unsplash.com/photo-1558402529-d2638a7023e9?auto=format&fit=crop&w=700&q=80" 
+            alt="Neat 18th edition RCBO consumer unit installation" 
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            onerror="this.onerror=null;this.src='https://placehold.co/600x700/1e293b/fbbf24?text=RCBO+Consumer+Unit';"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-amber-400 text-xs font-bold uppercase">Romford, RM1</span>
+            <h3 class="text-white font-bold text-base mt-0.5">16-Way RCBO Fuse Box Upgrade</h3>
+          </div>
+        </button>
+
+        <!-- Gallery Item 3 -->
+        <button type="button" class="gallery-item group relative rounded-2xl overflow-hidden bg-navy-900 shadow-md text-left cursor-pointer focus:outline-none focus:ring-4 focus:ring-amber-400"
+          data-img="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=1200&q=85"
+          data-title="7.4kW Smart Home EV Charger &amp; CT Clamp Setup"
+          data-location="Chigwell, Essex"
+          data-desc="Concealed SWA armoured cable run from meter cupboard to driveway, paired with a 7.4kW smart charger configured for off-peak overnight EV tariffs.">
+          <img 
+            src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=700&q=80" 
+            alt="Driveway EV charger installation" 
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            onerror="this.onerror=null;this.src='https://placehold.co/600x700/1e293b/fbbf24?text=EV+Home+Charger';"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-amber-400 text-xs font-bold uppercase">Chigwell, IG7</span>
+            <h3 class="text-white font-bold text-base mt-0.5">7.4kW Smart EV Charger</h3>
+          </div>
+        </button>
+
+        <!-- Gallery Item 4 -->
+        <button type="button" class="gallery-item group relative rounded-2xl overflow-hidden bg-navy-900 shadow-md text-left cursor-pointer focus:outline-none focus:ring-4 focus:ring-amber-400"
+          data-img="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85"
+          data-title="Architectural Garden &amp; Patio Exterior Lighting"
+          data-location="Barking &amp; Upney, IG11"
+          data-desc="Armoured garden sub-main feeding IP65 warm architectural wall wash lights, patio spike uplighters, and a weatherproof double outdoor socket.">
+          <img 
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80" 
+            alt="Exterior architectural home and garden lighting at dusk" 
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            onerror="this.onerror=null;this.src='https://placehold.co/600x700/1e293b/fbbf24?text=Outdoor+Garden+Lighting';"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent p-5 flex flex-col justify-end">
+            <span class="text-amber-400 text-xs font-bold uppercase">Barking, IG11</span>
+            <h3 class="text-white font-bold text-base mt-0.5">Exterior &amp; Garden Lighting</h3>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Testimonials Section -->
+  <section id="reviews" class="py-16 sm:py-24 bg-navy-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-14">
+        <span class="text-amber-400 font-bold text-xs sm:text-sm uppercase tracking-wider">Verified Local Feedback</span>
+        <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight">Rated 5.0/5 by Homeowners &amp; Landlords</h2>
+        <p class="mt-3 text-slate-300 text-base">Real reviews from recent domestic and commercial clients across East London and Essex.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+        <!-- Review 1 -->
+        <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 sm:p-7 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-amber-400 mb-4" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+              “Graham upgraded our old fuse box and fitted 12 LED spotlights in our kitchen diner. He arrived right on time, protected all our new worktops with dust sheets, and explained every circuit clearly. Certificate arrived the same evening.”
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-700/80 flex items-center justify-between">
+            <div>
+              <p class="font-bold text-white text-sm">Sarah &amp; Tom Jenkins</p>
+              <p class="text-slate-400 text-xs">Ilford • Fuse Box &amp; Kitchen LEDs</p>
+            </div>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-900 text-amber-400 font-semibold">Verified</span>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 sm:p-7 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-amber-400 mb-4" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+              “Called Graham at 8pm when our downstairs sockets kept tripping and we lost power to the fridge-freezer. He was with us within 45 minutes, traced a faulty outdoor junction box, and had everything safely restored at a very fair rate.”
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-700/80 flex items-center justify-between">
+            <div>
+              <p class="font-bold text-white text-sm">David Okafor</p>
+              <p class="text-slate-400 text-xs">Barking • Emergency Fault Finding</p>
+            </div>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-900 text-amber-400 font-semibold">Verified</span>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 sm:p-7 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-amber-400 mb-4" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+              “I use Graham for EICR safety certificates across four rental flats in Romford and Brentwood. Always reliable, coordinates directly with my tenants, and provides honest, reasonably priced remedial quotes when needed.”
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-700/80 flex items-center justify-between">
+            <div>
+              <p class="font-bold text-white text-sm">Claire Henderson</p>
+              <p class="text-slate-400 text-xs">Romford • Landlord EICRs</p>
+            </div>
+            <span class="text-xs px-2.5 py-1 rounded-md bg-slate-900 text-amber-400 font-semibold">Verified</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enquiry & Free Quote Section -->
+  <section id="quote" class="py-16 sm:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+        
+        <!-- Left Contact & Service Area Info -->
+        <div class="lg:col-span-5 space-y-6">
+          <div>
+            <span class="text-amber-600 font-bold text-xs sm:text-sm uppercase tracking-wider">Get In Touch</span>
+            <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight">
+              Request a Free Quote or Book a Visit
+            </h2>
+            <p class="mt-3 text-slate-600 text-base leading-relaxed">
+              Fill out the enquiry form with a few details about your job and I will get back to you within 2 working hours with advice or an estimate. For urgent electrical emergencies, please call my mobile directly.
+            </p>
+          </div>
+
+          <!-- Direct Contact Cards -->
+          <div class="space-y-4">
+            <a href="tel:07700900482" class="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 hover:border-amber-500 shadow-sm transition group">
+              <div class="w-12 h-12 rounded-xl bg-amber-500 text-navy-950 flex items-center justify-center shrink-0 group-hover:scale-105 transition">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"/></svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Direct Mobile &amp; 24/7 Emergency</p>
+                <p class="text-lg font-extrabold text-navy-900 group-hover:text-amber-600 transition">07700 900 482</p>
+              </div>
+            </a>
+
+            <a href="tel:02085550194" class="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 hover:border-amber-500 shadow-sm transition group">
+              <div class="w-12 h-12 rounded-xl bg-navy-900 text-amber-400 flex items-center justify-center shrink-0">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Office Landline</p>
+                <p class="text-lg font-extrabold text-navy-900 group-hover:text-amber-600 transition">020 8555 0194</p>
+              </div>
+            </a>
+
+            <div class="flex items-center gap-4 p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+              <div class="w-12 h-12 rounded-xl bg-slate-100 text-navy-900 flex items-center justify-center shrink-0">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Email Enquiries</p>
+                <p class="text-base font-bold text-navy-900">graham@grahamselectrical.co.uk</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coverage Box -->
+          <div class="p-5 rounded-2xl bg-navy-900 text-slate-300 text-sm space-y-2">
+            <p class="text-white font-bold flex items-center gap-2">
+              <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+              Areas Covered
+            </p>
+            <p class="leading-relaxed">
+              Barking, Ilford, Wanstead, Woodford, Romford, Hornchurch, Upminster, Chigwell, Loughton, Stratford &amp; surrounding London/Essex postcodes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Interactive Enquiry Form Card -->
+        <div class="lg:col-span-7">
+          <div class="bg-white rounded-3xl border border-slate-200 shadow-xl p-6 sm:p-10">
+            
+            <!-- Form Container -->
+            <form id="enquiry-form" novalidate class="space-y-5">
+              <div class="border-b border-slate-100 pb-4">
+                <h3 class="text-xl sm:text-2xl font-extrabold text-navy-900">Send an Enquiry to Graham</h3>
+                <p class="text-slate-500 text-sm mt-1">All fields marked with <span class="text-rose-500 font-bold">*</span> are required.</p>
+              </div>
+
+              <!-- Validation Error Banner (Hidden by default) -->
+              <div id="form-error-banner" class="hidden p-4 rounded-xl bg-rose-50 border border-rose-200 text-rose-800 text-sm font-medium flex items-start gap-2.5">
+                <svg class="w-5 h-5 text-rose-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"/></svg>
+                <span id="form-error-text">Please complete the highlighted fields below before submitting.</span>
+              </div>
+
+              <!-- Row 1: Full Name & Phone -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="fullName" class="block text-sm font-semibold text-navy-900 mb-1.5">
+                    Full Name <span class="text-rose-500">*</span>
+                  </label>
+                  <input type="text" id="fullName" name="fullName" required placeholder="e.g. James Patel"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition" />
+                </div>
+
+                <div>
+                  <label for="phone" class="block text-sm font-semibold text-navy-900 mb-1.5">
+                    Phone Number <span class="text-rose-500">*</span>
+                  </label>
+                  <input type="tel" id="phone" name="phone" required placeholder="e.g. 07700 900 123"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition" />
+                </div>
+              </div>
+
+              <!-- Row 2: Email & Postcode -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="email" class="block text-sm font-semibold text-navy-900 mb-1.5">
+                    Email Address <span class="text-rose-500">*</span>
+                  </label>
+                  <input type="email" id="email" name="email" required placeholder="e.g. james@example.co.uk"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition" />
+                </div>
+
+                <div>
+                  <label for="postcode" class="block text-sm font-semibold text-navy-900 mb-1.5">
+                    Postcode / Town <span class="text-rose-500">*</span>
+                  </label>
+                  <input type="text" id="postcode" name="postcode" required placeholder="e.g. IG11 8AA or Romford"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition" />
+                </div>
+              </div>
+
+              <!-- Row 3: Service Needed & Urgency -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="serviceType" class="block text-sm font-semibold text-navy-900 mb-1.5">
+                    Service Required <span class="text-rose-500">*</span>
+                  </label>
+                  <select id="serviceType" name="serviceType" required
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition">
+                    <option value="">-- Select a Service --</option>
+                    <option value="Consumer Unit (Fuse Box) Upgrade">Consumer Unit (Fuse Box) Upgrade</option>
+                    <option value="Full or Partial Rewire">Full or Partial Rewire</option>
+                    <option value="EV Charger Installation">EV Charger Installation</option>
+                    <option value="Lighting Design & LED Upgrades">Lighting Design &amp; LED Upgrades</option>
+                    <option value="EICR Safety Certificate / Inspection">EICR Safety Certificate / Inspection</option>
+                    <option value="24/7 Emergency Fault Finding & Repair">24/7 Emergency Fault Finding &amp; Repair</option>
+                    <option value="Additional Sockets / Switches / Other">Additional Sockets / Switches / Other</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="urgency" class="block text-sm font-semibold text-navy-900 mb-1.5">
+                    Timeframe / Urgency
+                  </label>
+                  <select id="urgency" name="urgency"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-300 text-slate-900 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition">
+                    <option value="Flexible / Free Quote">Flexible — Looking for a Free Quote</option>
+                    <option value="Within 1-2 Weeks">Within the Next 1–2 Weeks</option>
+                    <option value="Urgent (Within 48 Hours)">Urgent — Within 48 Hours</option>
+                    <option value="24/7 Emergency Today">Emergency — Need Assistance Today</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Project Details Textarea -->
+              <div>
+                <label for="message" class="block text-sm font-semibold text-navy-900 mb-1.5">
+                  Project Details or Fault Description <span class="text-rose-500">*</span>
+                </label>
+                <textarea id="message" name="message" rows="4" required
+                  placeholder="Tell me a little about the electrical work you need (e.g., number of bedrooms, type of property, any issues you're experiencing)..."
+                  class="w-full px-4 py-3 rounded-xl border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition"></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="pt-2">
+                <button type="submit" id="submit-btn"
+                  class="w-full py-4 px-6 rounded-xl bg-amber-500 hover:bg-amber-400 text-navy-950 font-extrabold text-base shadow-lg shadow-amber-500/20 transition flex items-center justify-center gap-2 cursor-pointer">
+                  <span>Send Enquiry to Graham</span>
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/></svg>
+                </button>
+                <p class="text-center text-xs text-slate-500 mt-3 flex items-center justify-center gap-1.5">
+                  <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg>
+                  Your details are strictly private and never shared with third parties.
+                </p>
+              </div>
+            </form>
+
+            <!-- Confirmation View (Hidden until form is submitted) -->
+            <div id="enquiry-confirmation" class="hidden text-center py-6 space-y-5">
+              <div class="w-16 h-16 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
+                <svg class="w-9 h-9" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+              </div>
+              <div>
+                <span id="ref-badge" class="inline-block px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold tracking-wide uppercase mb-2">
+                  Ref: #GES-4821
+                </span>
+                <h3 class="text-2xl sm:text-3xl font-extrabold text-navy-900">Enquiry Received, <span id="confirm-name">Friend</span>!</h3>
+                <p class="text-slate-600 text-sm sm:text-base max-w-md mx-auto mt-2">
+                  Thank you for contacting Graham’s Electrical Services. I have logged your request and will call or email you shortly to discuss your quote.
+                </p>
+              </div>
+
+              <!-- Summary Box -->
+              <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 text-left max-w-lg mx-auto space-y-2.5 text-sm">
+                <div class="flex justify-between gap-4 border-b border-slate-200 pb-2">
+                  <span class="text-slate-500">Service:</span>
+                  <span id="confirm-service" class="font-bold text-navy-900 text-right"></span>
+                </div>
+                <div class="flex justify-between gap-4 border-b border-slate-200 pb-2">
+                  <span class="text-slate-500">Location:</span>
+                  <span id="confirm-postcode" class="font-bold text-navy-900 text-right"></span>
+                </div>
+                <div class="flex justify-between gap-4 border-b border-slate-200 pb-2">
+                  <span class="text-slate-500">Timeframe:</span>
+                  <span id="confirm-urgency" class="font-bold text-navy-900 text-right"></span>
+                </div>
+                <div class="flex justify-between gap-4">
+                  <span class="text-slate-500">Contact Phone:</span>
+                  <span id="confirm-phone" class="font-bold text-navy-900 text-right"></span>
+                </div>
+              </div>
+
+              <div class="pt-3 flex flex-col sm:flex-row gap-3 justify-center">
+                <button type="button" id="reset-form-btn" class="px-5 py-3 rounded-xl border border-slate-300 hover:bg-slate-100 text-navy-900 font-semibold text-sm transition cursor-pointer">
+                  Send Another Enquiry
+                </button>
+                <a href="tel:07700900482" class="px-5 py-3 rounded-xl bg-navy-900 hover:bg-navy-800 text-white font-semibold text-sm transition">
+                  Need Immediate Help? Call 07700 900 482
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal for Gallery -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 hidden bg-navy-950/90 backdrop-blur-sm p-4 sm:p-6 flex items-center justify-center" role="dialog" aria-modal="true">
+    <div class="bg-navy-900 border border-slate-700 rounded-2xl max-w-3xl w-full overflow-hidden shadow-2xl relative">
+      <button type="button" id="close-lightbox-btn" aria-label="Close Project Preview"
+        class="absolute top-3 right-3 z-10 w-10 h-10 rounded-xl bg-navy-950/80 hover:bg-amber-500 text-white hover:text-navy-950 flex items-center justify-center transition cursor-pointer">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <img id="lightbox-img" src="" alt="Project installation preview" class="w-full max-h-[65vh] object-cover bg-slate-800" />
+      <div class="p-6">
+        <span id="lightbox-location" class="text-amber-400 text-xs font-bold uppercase tracking-wider"></span>
+        <h3 id="lightbox-title" class="text-white text-xl font-extrabold mt-1"></h3>
+        <p id="lightbox-desc" class="text-slate-300 text-sm mt-2 leading-relaxed"></p>
+        <div class="mt-5 flex justify-end">
+          <button type="button" id="lightbox-quote-btn" class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-navy-950 font-bold text-sm transition cursor-pointer">
+            Request a Similar Installation
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-navy-950 text-slate-400 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <!-- Brand Info -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-navy-950">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+              </svg>
+            </div>
+            <div>
+              <span class="block text-white font-extrabold text-lg tracking-tight leading-none">GRAHAM'S</span>
+              <span class="block text-amber-400 text-xs font-semibold tracking-widest uppercase mt-0.5">Electrical Services</span>
+            </div>
+          </div>
+          <p class="text-sm leading-relaxed">
+            NICEIC Approved &amp; Part P Registered electrical contractor providing safe, tidy, and guaranteed electrical work across East London &amp; Essex.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Quick Links</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#services" class="hover:text-amber-400 transition">Electrical Services</a></li>
+            <li><a href="#about" class="hover:text-amber-400 transition">About Graham</a></li>
+            <li><a href="#gallery" class="hover:text-amber-400 transition">Recent Installations</a></li>
+            <li><a href="#reviews" class="hover:text-amber-400 transition">Customer Reviews</a></li>
+            <li><a href="#quote" class="hover:text-amber-400 transition">Get a Free Quote</a></li>
+          </ul>
+        </div>
+
+        <!-- Opening Hours -->
+        <div>
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Working Hours</h4>
+          <ul class="space-y-2 text-sm">
+            <li class="flex justify-between"><span>Mon – Fri:</span> <span class="text-white font-medium">07:30 – 18:30</span></li>
+            <li class="flex justify-between"><span>Saturday:</span> <span class="text-white font-medium">08:30 – 16:00</span></li>
+            <li class="flex justify-between"><span>Sunday:</span> <span class="text-slate-400">Emergency Only</span></li>
+            <li class="pt-2 text-amber-400 font-semibold">24/7 Emergency Callout Line Active</li>
+          </ul>
+        </div>
+
+        <!-- Contact Details -->
+        <div>
+          <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Contact Graham</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li>Mobile: <a href="tel:07700900482" class="text-white font-semibold hover:text-amber-400">07700 900 482</a></li>
+            <li>Office: <a href="tel:02085550194" class="text-white font-semibold hover:text-amber-400">020 8555 0194</a></li>
+            <li>Email: <a href="mailto:graham@grahamselectrical.co.uk" class="hover:text-amber-400">graham@grahamselectrical.co.uk</a></li>
+            <li>Base: Barking &amp; Romford, Greater London / Essex</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>&copy; <span id="current-year"></span> Graham's Electrical Services Ltd. All rights reserved.</p>
+        <p>BS 7671 18th Edition Certified • NICEIC Approved Contractor • £5M Public Liability Insurance</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Set current copyright year
+      const yearEl = document.getElementById('current-year');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      // Mobile Navigation Toggle
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const iconOpen = document.getElementById('menu-icon-open');
+      const iconClose = document.getElementById('menu-icon-close');
+
+      function toggleMobileMenu(forceClose = false) {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        if (forceClose || !isHidden) {
+          mobileMenu.classList.add('hidden');
+          iconOpen.classList.remove('hidden');
+          iconClose.classList.add('hidden');
+        } else {
+          mobileMenu.classList.remove('hidden');
+          iconOpen.classList.add('hidden');
+          iconClose.classList.remove('hidden');
+        }
+      }
+
+      if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', () => toggleMobileMenu());
+      }
+
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => toggleMobileMenu(true));
+      });
+
+      // Service Card "Enquire Now" Prefill & Smooth Scroll
+      const serviceSelect = document.getElementById('serviceType');
+      const urgencySelect = document.getElementById('urgency');
+      const quoteSection = document.getElementById('quote');
+      const formEl = document.getElementById('enquiry-form');
+      const confirmEl = document.getElementById('enquiry-confirmation');
+
+      function prefillQuoteForm(serviceName) {
+        // Ensure form is visible if user already submitted earlier
+        if (formEl && confirmEl) {
+          formEl.classList.remove('hidden');
+          confirmEl.classList.add('hidden');
+        }
+
+        if (serviceSelect && serviceName) {
+          serviceSelect.value = serviceName;
+          if (serviceName.toLowerCase().includes('emergency') && urgencySelect) {
+            urgencySelect.value = '24/7 Emergency Today';
+          }
+        }
+
+        if (quoteSection) {
+          quoteSection.scrollIntoView({ behavior: 'smooth' });
+          setTimeout(() => {
+            const nameInput = document.getElementById('fullName');
+            if (nameInput) nameInput.focus();
+          }, 550);
+        }
+      }
+
+      document.querySelectorAll('.quote-prefill-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const chosenService = btn.getAttribute('data-service');
+          prefillQuoteForm(chosenService);
+        });
+      });
+
+      // Gallery Lightbox Logic
+      const lightboxModal = document.getElementById('lightbox-modal');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const lightboxTitle = document.getElementById('lightbox-title');
+      const lightboxLocation = document.getElementById('lightbox-location');
+      const lightboxDesc = document.getElementById('lightbox-desc');
+      const closeLightboxBtn = document.getElementById('close-lightbox-btn');
+      const lightboxQuoteBtn = document.getElementById('lightbox-quote-btn');
+      let activeProjectTitle = '';
+
+      document.querySelectorAll('.gallery-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const img = item.getAttribute('data-img');
+          const title = item.getAttribute('data-title');
+          const location = item.getAttribute('data-location');
+          const desc = item.getAttribute('data-desc');
+
+          activeProjectTitle = title;
+          lightboxImg.src = img;
+          lightboxTitle.textContent = title;
+          lightboxLocation.textContent = location;
+          lightboxDesc.textContent = desc;
+          lightboxModal.classList.remove('hidden');
+        });
+      });
+
+      function closeLightbox() {
+        lightboxModal.classList.add('hidden');
+      }
+
+      if (closeLightboxBtn) closeLightboxBtn.addEventListener('click', closeLightbox);
+      if (lightboxModal) {
+        lightboxModal.addEventListener('click', (e) => {
+          if (e.target === lightboxModal) closeLightbox();
+        });
+      }
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !lightboxModal.classList.contains('hidden')) {
+          closeLightbox();
+        }
+      });
+
+      if (lightboxQuoteBtn) {
+        lightboxQuoteBtn.addEventListener('click', () => {
+          closeLightbox();
+          const msgBox = document.getElementById('message');
+          if (msgBox && activeProjectTitle) {
+            msgBox.value = `Hi Graham, I'm interested in a similar installation to "${activeProjectTitle}". `;
+          }
+          prefillQuoteForm('');
+        });
+      }
+
+      // Enquiry Form Validation & Submission Handling
+      const errorBanner = document.getElementById('form-error-banner');
+      const errorText = document.getElementById('form-error-text');
+      const submitBtn = document.getElementById('submit-btn');
+      const resetFormBtn = document.getElementById('reset-form-btn');
+
+      function showFormError(message) {
+        errorText.textContent = message;
+        errorBanner.classList.remove('hidden');
+        errorBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      function clearFieldErrors() {
+        errorBanner.classList.add('hidden');
+        ['fullName', 'phone', 'email', 'postcode', 'serviceType', 'message'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el) el.classList.remove('border-rose-500', 'ring-2', 'ring-rose-200');
+        });
+      }
+
+      function markInvalid(el) {
+        if (el) el.classList.add('border-rose-500', 'ring-2', 'ring-rose-200');
+      }
+
+      if (formEl) {
+        formEl.addEventListener('submit', (e) => {
+          e.preventDefault();
+          clearFieldErrors();
+
+          const fullNameEl = document.getElementById('fullName');
+          const phoneEl = document.getElementById('phone');
+          const emailEl = document.getElementById('email');
+          const postcodeEl = document.getElementById('postcode');
+          const serviceEl = document.getElementById('serviceType');
+          const urgencyEl = document.getElementById('urgency');
+          const messageEl = document.getElementById('message');
+
+          const fullName = fullNameEl.value.trim();
+          const phone = phoneEl.value.trim();
+          const email = emailEl.value.trim();
+          const postcode = postcodeEl.value.trim();
+          const serviceVal = serviceEl.value.trim();
+          const urgencyVal = urgencyEl.value;
+          const messageVal = messageEl.value.trim();
+
+          let hasError = false;
+
+          if (!fullName) { markInvalid(fullNameEl); hasError = true; }
+          if (!phone || phone.replace(/\D/g, '').length < 9) { markInvalid(phoneEl); hasError = true; }
+          if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { markInvalid(emailEl); hasError = true; }
+          if (!postcode) { markInvalid(postcodeEl); hasError = true; }
+          if (!serviceVal) { markInvalid(serviceEl); hasError = true; }
+          if (!messageVal) { markInvalid(messageEl); hasError = true; }
+
+          if (hasError) {
+            showFormError('Please fill in all required fields accurately (including a valid UK phone number and email address).');
+            return;
+          }
+
+          // Simulate sending state
+          const originalBtnHTML = submitBtn.innerHTML;
+          submitBtn.disabled = true;
+          submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+          submitBtn.innerHTML = `
+            <svg class="animate-spin h-5 w-5 text-navy-950" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <span>Sending Enquiry...</span>
+          `;
+
+          setTimeout(() => {
+            // Generate random reference number
+            const refNum = 'GES-' + Math.floor(1000 + Math.random() * 9000);
+            document.getElementById('ref-badge').textContent = `Reference: #${refNum}`;
+            document.getElementById('confirm-name').textContent = fullName.split(' ')[0];
+            document.getElementById('confirm-service').textContent = serviceVal;
+            document.getElementById('confirm-postcode').textContent = postcode.toUpperCase();
+            document.getElementById('confirm-urgency').textContent = urgencyVal;
+            document.getElementById('confirm-phone').textContent = phone;
+
+            // Swap form for confirmation panel
+            formEl.classList.add('hidden');
+            confirmEl.classList.remove('hidden');
+
+            // Reset button state for future submissions
+            submitBtn.disabled = false;
+            submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+            submitBtn.innerHTML = originalBtnHTML;
+
+            confirmEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }, 750);
+        });
+      }
+
+      if (resetFormBtn) {
+        resetFormBtn.addEventListener('click', () => {
+          formEl.reset();
+          clearFieldErrors();
+          confirmEl.classList.add('hidden');
+          formEl.classList.remove('hidden');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
